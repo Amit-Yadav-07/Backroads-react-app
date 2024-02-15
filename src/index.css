@@ -84,10 +84,10 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
+  /* align-items: start; */
   width: 100%;
   height: 100%;
   overflow: hidden;
-  align-items: start;
   padding-left: 1.2rem;
 }
 
@@ -149,11 +149,12 @@ body {
 .hero-container {
   height: calc(100dvh - 4.5rem);
   width: 100%;
-  background: url('./images/main.jpeg');
+  background: url('../src/images/main.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
 }
 
 .hero-inner-shadow {
