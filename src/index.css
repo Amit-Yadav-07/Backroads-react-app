@@ -74,9 +74,7 @@ body {
 }
 
 .link-container.active {
-  visibility: visible;
   height: 300px;
-  overflow: hidden;
 }
 
 .links-section {
